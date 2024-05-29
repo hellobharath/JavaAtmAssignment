@@ -6,7 +6,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * This is the driver class of the application used to withdrawal of cash from ATM
+ * This is the driver class of the application used to withdraw of cash from ATM
+ * This is an interactive flow and you need to provide the respective option to continue withdraw or exit
  */
 
 public class Main {
