@@ -38,12 +38,12 @@ Ensure that the code takes care of the following:
 
 # Solution
 
-> Code starts from Main class which initialises and calls the ATM class
-> Main class calls withdrawCash with desired amount and transaction id as input
-> Amount is validated before the actual cash withdrawal logic
-> Program calculates the balance after the transaction is completed
-> 
-> ### Assumptions:
+- Code starts from Main class which initialises and calls the ATM class
+- Main class calls withdrawCash with desired amount and transaction id as input
+- Amount is validated before the actual cash withdrawal logic
+- Program calculates the balance after the transaction is completed
+ 
+### Assumptions:
 
 1. Denominations in the ATM should be multiples of 100.
 3. Amount to be withdrawn should be multiple of 100
